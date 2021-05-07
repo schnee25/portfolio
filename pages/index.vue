@@ -56,6 +56,6 @@ export default {}
   display: inline-block;
   margin: 10px 13px 10px 13px;
   font-size: 1.3em;
-  vertical-align: middle;　/* 親のheight/line-heightと合わせて使って子を中央揃えに */
+  vertical-align: middle; /* 親のheight/line-heightと合わせて使って子を中央揃えに */
 }
 </style>
