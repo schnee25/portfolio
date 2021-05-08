@@ -21,8 +21,20 @@
     </div>
     <hr class="border" />
     <div class="body">
-      <div class="main"></div>
-      <div class="side"></div>
+      <div class="main">
+        <div class="aboutme">
+          <div class="proimg"></div>
+          <div class="proftext">
+            <h1 class="aboutmetxt">about me</h1>
+            <p>名前: 小山田　雪乃</p>
+            <p>　　おやまだ ゆきの</p>
+            <p>
+              2000年12月生まれ。熊本県内の公立高校を卒業。現在は都内の大学の法学部に在籍。
+            </p>
+            <p>好きなこと: 食べること🍙</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="footder"></div>
   </div>
@@ -34,7 +46,6 @@ export default {}
 
 <style>
 .container {
-  font-family: 'Hachi Maru Pop', cursive;
   margin: 0 auto;
   display: flex;
   /* justify-content: center; いらんかも*/
@@ -42,6 +53,7 @@ export default {}
 }
 
 .header {
+  font-family: 'Hachi Maru Pop', cursive;
   display: inline-block;
   display: flex;
   justify-content: center;
@@ -77,5 +89,17 @@ export default {}
 }
 .border {
   display: block;
+}
+
+.body {
+  font-family: 'Kiwi Maru', serif;
+}
+.aboutme {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+h1 {
+  font-size: 130%;
 }
 </style>
