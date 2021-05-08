@@ -29,11 +29,21 @@
             <p>名前: 小山田　雪乃</p>
             <p>　　おやまだ ゆきの</p>
             <p>
-              2000年12月生まれ。熊本県内の公立高校を卒業。現在は都内の大学の法学部に在籍。
+              2000年12月生まれ。
+              <span>熊本県内の公立高校を卒業。</span>
+              <span>現在は都内の大学の法学部に在籍。</span>
             </p>
             <p>好きなこと: 食べること🍙</p>
           </div>
         </div>
+        <div class="workscomtents">
+          <div class="worksportpolio">
+            <!-- スクショとリンク貼る -->
+            <p>ポートフォリオ</p>
+          </div>
+        </div>
+        <div class="skillcomtents"></div>
+        <div class="contactcomtents"></div>
       </div>
     </div>
     <div class="footder"></div>
@@ -106,6 +116,15 @@ h1 {
   font-size: 130%;
 }
 
+.workscomtents {
+}
+
+.skillcomtents {
+}
+
+.contactcomtents {
+}
+
 /* レスポンシブ */
 @media screen and (max-width: 959px) {
   /* 959px以下に適用されるCSS（タブレット用） */
@@ -134,6 +153,9 @@ h1 {
     height: 30px;
     width: 30px;
     margin: auto;
+  }
+  span {
+    display: block;
   }
 }
 </style>
