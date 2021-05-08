@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header">
       <div class="profile">
-        <div class="icon"><img src="~/assets/re.jpeg" /></div>
+        <div class="icon"><img src="~/assets/redyPortfolio.jpeg" /></div>
         <p class="iconsub">about</p>
       </div>
       <div class="works">
@@ -79,9 +79,12 @@ export default {}
   font-size: 1.3em;
   vertical-align: middle; /* 親のheight/line-heightと合わせて使って子を中央揃えに */
 }
+img {
+  max-width: 45px;
+}
 .icon {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   margin: auto;
 }
 .iconsub {
@@ -115,7 +118,7 @@ h1 {
   .contact {
     display: inline-block;
     margin: 3px 10px 3px 10px;
-    font-size: 0.6em;
+    font-size: 0.65em;
   }
   .title {
     display: inline-block;
