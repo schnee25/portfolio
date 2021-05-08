@@ -19,7 +19,11 @@
         <p>contact</p>
       </div>
     </div>
-    <div class="body"></div>
+    <hr class="border" />
+    <div class="body">
+      <div class="main"></div>
+      <div class="side"></div>
+    </div>
     <div class="footder"></div>
   </div>
 </template>
@@ -33,7 +37,8 @@ export default {}
   font-family: 'Hachi Maru Pop', cursive;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; いらんかも*/
+  flex-direction: column;
 }
 
 .header {
@@ -69,5 +74,8 @@ export default {}
 }
 .iconsub {
   margin-top: 0px;
+}
+.border {
+  display: block;
 }
 </style>
