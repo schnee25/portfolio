@@ -17,6 +17,11 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap',
       },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap',
+      },
       // フォントの追加
     ],
   },
