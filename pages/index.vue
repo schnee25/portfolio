@@ -2,16 +2,20 @@
   <div class="container">
     <div class="header">
       <div class="profile">
-        <p>about</p>
+        <div class="icon"><img src="~/assets/re.jpeg" /></div>
+        <p class="iconsub">about</p>
       </div>
       <div class="works">
+        <div class="icon"><img src="~/assets/goodjobIcon.jpeg" /></div>
         <p>works</p>
       </div>
       <div class="title"><p>yukipedia</p></div>
       <div class="skill">
+        <div class="icon"><img src="~/assets/penIcon.jpeg" /></div>
         <p>skill</p>
       </div>
       <div class="contact">
+        <div class="icon"><img src="~/assets/comentIcon.jpeg" /></div>
         <p>contact</p>
       </div>
     </div>
@@ -38,8 +42,8 @@ export default {}
   justify-content: center;
   align-content: center;
 
-  height: 100px;
-  line-height: 100px;
+  /* height: 100px;
+  line-height: 100px; */
   /* height/line-height -> 子要素の上下を中央揃えにするため */
 }
 
@@ -48,14 +52,22 @@ export default {}
 .skill,
 .contact {
   display: inline-block;
-  margin: 10px;
-  vertical-align: middle;
+  margin: 3px 40px 3px 40px;
+  /* vertical-align: middle; */
 }
 
 .title {
   display: inline-block;
-  margin: 10px 13px 10px 13px;
+  margin: 10px 60px 10px 60px;
   font-size: 1.3em;
   vertical-align: middle; /* 親のheight/line-heightと合わせて使って子を中央揃えに */
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+.iconsub {
+  margin-top: 0px;
 }
 </style>
