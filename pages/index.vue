@@ -8,33 +8,28 @@
         <div class="aboutme">
           <div class="profImg"></div>
           <div class="proftext">
-            <h1 class="aboutmetxt">about me</h1>
+            <h1 class="aboutmetxt">- about me -</h1>
             <p>名前: 小山田　雪乃</p>
             <p>　　おやまだ ゆきの</p>
             <p>
               2000年12月生まれ。
-              <span>熊本県内の公立高校を卒業。</span>
-              <span>現在は都内の大学の法学部に在籍。</span>
+              <span>熊本高校卒。</span>
+              <span>立教大学法学部に在籍。</span>
             </p>
             <p>好きなこと: 食べること🍙</p>
+            <!-- 詳しいページ作る？ -->
           </div>
         </div>
 
        <div class="worksbox">
          <WorksContents></WorksContents>
        </div>
-      
-      <div class="skillbox">
-          <SkillContents></SkillContents>
-      </div>
-       
-        
+       <div class="skillbox"><SkillContents></SkillContents></div>
 
-     
-      </div>
-        <div class="contactcontents"></div>
-      </div>
+       <div class="contactcontents"><ContactContents></ContactContents></div>
+     </div>
     </div>
+  </div>
   
 </template>
 
@@ -47,14 +42,19 @@ components: {
   AppNameHeader
 }
 
-import SkillContents from '../components/SkillContents.vue';
+import WorksContents from '../components/WorksContents.vue'
+components: {
+  WorksContents
+}
+
+import SkillContents from '../components/SkillContents';
 components: {
   SkillContents
 }
 
-import WorksContents from '../components/WorksContents.vue'
+import ContactContents from '../components/ContactContents'
 components: {
-  WorksContents
+  ContactContents
 }
 </script>
 
@@ -80,6 +80,7 @@ components: {
 }
 h1 {
   font-size: 130%;
+  text-align: center;
 }
 
 

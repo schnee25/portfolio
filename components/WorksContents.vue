@@ -1,6 +1,6 @@
 <template>
     <div class="workscontents">
-      <div class="workstitle"><h1>works</h1></div>
+      <div class="workstitle"><h1>- works -</h1></div>
           <div class="worksportpolio">
             <!-- スクショとリンク貼る -->
             <p>ポートフォリオ</p>
