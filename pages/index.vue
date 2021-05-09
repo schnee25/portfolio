@@ -2,10 +2,11 @@
   <div class="container">
     <AppNameHeader></AppNameHeader>
     <hr class="border" />
+
     <div class="body">
       <div class="main">
         <div class="aboutme">
-          <div class="proimg"></div>
+          <div class="profImg"></div>
           <div class="proftext">
             <h1 class="aboutmetxt">about me</h1>
             <p>名前: 小山田　雪乃</p>
@@ -18,28 +19,42 @@
             <p>好きなこと: 食べること🍙</p>
           </div>
         </div>
-        <div class="workscomtents">
-          <div class="worksportpolio">
-            <!-- スクショとリンク貼る -->
-            <p>ポートフォリオ</p>
-          </div>
-        </div>
-        <div class="skillcomtents"></div>
-        <div class="contactcomtents"></div>
+
+       <div class="worksbox">
+         <WorksContents></WorksContents>
+       </div>
+      
+      <div class="skillbox">
+          <SkillContents></SkillContents>
+      </div>
+       
+        
+
+     
+      </div>
+        <div class="contactcontents"></div>
       </div>
     </div>
-    <div class="footder"></div>
-  </div>
+  
 </template>
 
 <script>
-import header from '../components/AppNameHeader.vue'
 export default {
-  components: { header },
 }
-import AppNameHeader from '../components/AppNameHeader.vue'
+
+import AppNameHeader from '../components/AppNameHeader.vue';
 components: {
   AppNameHeader
+}
+
+import SkillContents from '../components/SkillContents.vue';
+components: {
+  SkillContents
+}
+
+import WorksContents from '../components/WorksContents.vue'
+components: {
+  WorksContents
 }
 </script>
 
@@ -67,14 +82,8 @@ h1 {
   font-size: 130%;
 }
 
-.workscomtents {
-}
 
-.skillcomtents {
-}
 
-.contactcomtents {
-}
 
 /* レスポンシブ */
 @media screen and (max-width: 959px) {
