@@ -17,6 +17,8 @@
               <span>立教大学法学部に在籍。</span>
             </p>
             <p>好きなこと: 食べること🍙</p>
+            <p class="exactly">More information</p>
+          
             <!-- 詳しいページ作る？ -->
           </div>
         </div>
@@ -82,6 +84,9 @@ h1 {
   font-size: 130%;
   text-align: center;
 }
+.exactly{
+  text-align: center;
+}
 
 
 
@@ -107,14 +112,6 @@ h1 {
     vertical-align: middle; /* 親のheight/line-heightと合わせて使って子を中央揃えに */
   }
 
-  img {
-    max-width: 30px;
-  }
-  .icon {
-    height: 30px;
-    width: 30px;
-    margin: auto;
-  }
   span {
     display: block;
   }
