@@ -1,19 +1,25 @@
 <template>
-    <div class="workscontents">
-      <div class="workstitle"><h1>- works -</h1></div>
-      <div class="workscomponent">
-        <div class="worksportpolio">
-            
+      <div class="workscontents">
+        <div class="workstitle"><h1>- works -</h1></div>
+          <div class="workscomponent">
+
+          <div class="worksportpolio">
             <img src="~/assets/screanshot-portfolio.jpg" class="workss"/>
+            <router-link to="/works.portforio">
             <p>ポートフォリオ</p>
+            </router-link>
           </div>
+          
           <div class="worksdebateq">
             <img src="~/assets/screanshot-debateq.jpg" class="workss"/>
+            <router-link to="/works-debateq">
             <p>ディベート甲子園九州大会サイト</p>
+            </router-link>
+           
           </div>
+      
+        </div>    
       </div>
-          
-    </div>
 </template>
 
 <script>
