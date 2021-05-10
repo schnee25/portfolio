@@ -1,15 +1,18 @@
 <template>
     <div class="workscontents">
       <div class="workstitle"><h1>- works -</h1></div>
-          <div class="worksportpolio">
-            <!-- スクショとリンク貼る -->
+      <div class="workscomponent">
+        <div class="worksportpolio">
+            
+            <img src="~/assets/screanshot-portfolio.jpg" class="workss"/>
             <p>ポートフォリオ</p>
           </div>
-
           <div class="worksdebateq">
-            <!-- スクショとリンク貼る -->
+            <img src="~/assets/screanshot-debateq.jpg" class="workss"/>
             <p>ディベート甲子園九州大会サイト</p>
           </div>
+      </div>
+          
     </div>
 </template>
 
@@ -25,6 +28,15 @@ export default {
     margin-top: 2%;
     text-align: center;
 }
+.worksportpolio,.worksdebateq{
+  display: inline-block;
+  margin: 1% 3% 1% 3%;
+}
 
+.workss{
+   max-width: 250px;
+   max-height: 250px;
+   margin-bottom: 2%;
+}
 
 </style>
