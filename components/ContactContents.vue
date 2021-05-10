@@ -26,9 +26,7 @@ export default {
 </script>
 
 <style>
-.contactcontents {
-   
-}
+
 
 .contacttitle {
     margin-top: 2%;
