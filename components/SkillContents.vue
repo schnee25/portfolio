@@ -6,41 +6,50 @@
             <div class="logo">
               <img src="~/assets/HTML-Logo.png" class="skilliconimg"/>
             </div>
-              <p>　HTML　/ </p>
+              <p>&ensp;HTML　/ </p>
           </div>
 
           <div class="exskill">
             <div class="logo">
               <img src="~/assets/CSS-Logo.png"  class="skilliconimg"  />
             </div>
-              <p>　CSS　/ </p>
+              <p>&ensp;CSS　/ </p>
           </div>
 
           <div class="exskill">
             <div class="logo">
               <img src="~/assets/js-Logo.png" class="skilliconimg"/>
             </div>
-              <p>　JavaScript　/ </p>
+              <p>&ensp;JavaScript　/ </p>
           </div>
+
+          <div class="exskill">
+            <div class="logo">
+                <img src="~/assets/Vue-Logo.png" class="skilliconimg"/>
+            </div>
+            <p lass="skills">&ensp;Vue.js</p>
+          </div>
+
 <br>
+          
           <div class="exskill">
             <div class="logo">
               <img src="~/assets/Microsoft-Word-Logo.png" class="skilliconimg"/>
             </div> 
-            <p class="skills">　Word　/ </p>
+            <p class="skills">&ensp;Word　/ </p>
           </div>
 
           <div class="exskill">
             <div class="logo">
               <img src="~/assets/Microsoft-Excel-Logo.png" class="skilliconimg"/>
             </div>
-            <p class="skills">　Excel　/ </p>
+            <p class="skills">&ensp;Excel　/ </p>
           </div>
 
           <div class="exskill">
             <div class="logo">
                 <img src="~/assets/Microsoft-Powerpoint-Logo.png" class="skilliconimg"/>
-            </div><p lass="skills">　PowerPoint　/ </p>
+            </div><p lass="skills">&ensp;PowerPoint　/ </p>
           </div>
 
 <br>
@@ -48,19 +57,13 @@
          <div class="exskill">
             <div class="logo">
                 <img src="~/assets/Git-Logo.png" class="skilliconimg"/>
-            </div><p lass="skills">　git　/ </p>
+            </div><p lass="skills">&ensp;git　/ </p>
           </div>
 
           <div class="exskill">
             <div class="logo">
                 <img src="~/assets/VisualStudioCode-Logo.png" class="skilliconimg"/>
-            </div><p lass="skills">　Visual Studio Code　/ </p>
-          </div>
-
-          <div class="exskill">
-            <div class="logo">
-                <img src="~/assets/Vue-Logo.png" class="skilliconimg"/>
-            </div><p lass="skills">　Vue.js</p>
+            </div><p lass="skills">&ensp;Visual Studio Code　/ </p>
           </div>
         
         </div>
