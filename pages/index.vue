@@ -17,7 +17,9 @@
               <span>立教大学法学部に在籍。</span>
             </p>
             <p>好きなこと: 食べること🍙</p>
+            <router-link to="/aboutme">
             <p class="exactly">More information</p>
+            </router-link>
             <!-- ↑ 詳しいページ作る？リンクに -->
           </div>
         </div>
