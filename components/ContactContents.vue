@@ -14,7 +14,7 @@
 
        <div class="account">
             <div><img src="~/assets/facebook-Logo.png" class="contactIconimg"></div>
-            <div class="contactmedium"><p>facebook:&ensp;</p> <a href="https://www.facebook.com/yuki.O2525">Yukino Oyamda</a></div>
+            <div class="contactmedium"><p>facebook:&ensp;</p> <a href="https://www.facebook.com/yuki.O2525" rel=”noopener noreferrer” target="_blank">Yukino Oyamda</a></div>
        </div>
        
     </div>
