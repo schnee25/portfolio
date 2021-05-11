@@ -88,8 +88,15 @@ h1 {
 .exactly{
   text-align: center;
 }
-
-
+a{
+  color: #000;
+}
+a:hover{
+  color: blueviolet;
+}
+.Home:hover{
+  color: #000;
+}
 
 
 /* レスポンシブ */

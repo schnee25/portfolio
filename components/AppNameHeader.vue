@@ -10,7 +10,7 @@
         <p>works</p>
       </div>
 
-      <router-link to="/">
+      <router-link to="/" class="Home">
       <div class="title"><p>yukipedia</p></div>
       </router-link>
       
