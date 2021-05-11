@@ -4,7 +4,7 @@
        
        <div class="account">
             <div><img src="~/assets/GitHub-Logo.jpg" class="contactIconimg"></div>
-            <div class="contactmedium"><p>Github:&ensp;</p> <a href="https://github.com/schnee25" class="contactlink">schnee25</a></div>
+            <div class="contactmedium"><p>Github:&ensp;</p> <a href="https://github.com/schnee25" class="contactlink" rel=”noopener noreferrer” target="_blank">schnee25</a></div>
        </div>
        
        <div class="account">
