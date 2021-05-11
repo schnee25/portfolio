@@ -9,7 +9,11 @@
         <div class="icon"><img src="~/assets/goodjobIcon.jpeg" /></div>
         <p>works</p>
       </div>
+
+      <router-link to="/">
       <div class="title"><p>yukipedia</p></div>
+      </router-link>
+      
       <div class="skill">
         <div class="icon"><img src="~/assets/penIcon.jpeg" /></div>
         <p>skill</p>
