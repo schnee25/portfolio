@@ -24,13 +24,18 @@ components: {
   AppNameHeader
 }
 
-
-
-
-
-
 </script>
 
 <style>
+.body {
+  font-family: 'Kiwi Maru', serif;
+}
+.main{
+  text-align:center;
+}
+h1 {
+  font-size: 130%;
+  font-weight: normal;
+}
 
 </style>
