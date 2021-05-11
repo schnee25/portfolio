@@ -9,7 +9,7 @@
        
        <div class="account">
             <div><img src="~/assets/mail-icon.jpeg" class="contactIconimg"></div>
-            <div class="contactmedium"><p>Email:&ensp;</p> <p>schnee.2525yukiあっとgmail.com　/ 　あっと→@</p></div>
+            <div class="contactmedium"><p>Email:&ensp;</p> <p>schnee.2525yukiあっとgmail.com  / あっと→@</p></div>
        </div>
 
        <div class="account">
