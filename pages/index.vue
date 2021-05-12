@@ -17,7 +17,7 @@
               <span>立教大学法学部に在籍。</span>
             </p>
             <p>好きなこと: 食べること🍙</p>
-            <router-link to="/aboutme">
+            <router-link to="/aboutme" class="nonboder">
             <p class="exactly">More information</p>
             </router-link>
             <!-- ↑ 詳しいページ作る？リンクに -->
@@ -106,7 +106,7 @@ a:hover{
 .Home:hover{
   color: #000;
 }
-a {
+.nonboder {
     text-decoration:none; 
 }
 
