@@ -32,6 +32,10 @@
        <div class="contactcontents"><ContactContents></ContactContents></div>
      </div>
     </div>
+    <hr class="border" />
+    <div class="footer">
+      <AppFooter></AppFooter>
+    </div>
   </div>
   
 </template>
@@ -58,6 +62,11 @@ components: {
 import ContactContents from '../components/ContactContents'
 components: {
   ContactContents
+}
+
+import AppFooter from '../components/AppFooter'
+components: {
+  AppFooter
 }
 </script>
 
@@ -97,7 +106,9 @@ a:hover{
 .Home:hover{
   color: #000;
 }
-
+a {
+    text-decoration:none; 
+}
 
 /* レスポンシブ */
 @media screen and (max-width: 959px) {
