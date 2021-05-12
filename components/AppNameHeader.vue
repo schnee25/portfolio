@@ -2,8 +2,11 @@
   <div class="container">
     <div class="header">
       <div class="profile">
-        <div class="icon"><img src="~/assets/redyPortfolio.jpeg" /></div>
-        <p class="iconsub">about</p>
+        <router-link to="/aboutme" class="nonboder">
+            <div class="icon"><img src="~/assets/redyPortfolio.jpeg" /></div>
+            <p class="iconsub">CV</p>
+        </router-link>
+        
       </div>
       <div class="works">
         <div class="icon"><img src="~/assets/goodjobIcon.jpeg" /></div>
@@ -75,6 +78,9 @@ img {
 }
 .iconsub {
   margin-top: 0px;
+  text-align: center;
+  color: #000;
+  text-decoration:none; 
 }
 .border {
   display: block;
