@@ -10,9 +10,9 @@
         <p>works</p>
       </div>
 
-      <router-link to="/" class="Home">
-      <div class="title"><p>yukipedia</p></div>
-      </router-link>
+      
+      <div class="title"><a href="/"><p>yukipedia</p></a></div>
+      
       
       <div class="skill">
         <div class="icon"><img src="~/assets/penIcon.jpeg" /></div>
@@ -80,8 +80,11 @@ img {
   display: block;
 }
 
-.Home:hover{
+.home:hover{
   color: #000;
+}
+a{
+  text-decoration:none; 
 }
 
 /* レスポンシブ */
