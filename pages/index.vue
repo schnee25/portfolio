@@ -18,7 +18,7 @@
             </p>
             <p>好きなこと: 食べること🍙</p>
             <router-link to="/aboutme" class="nonboder">
-            <p class="exactly">More information</p>
+            <p class="exactly">- More information -</p>
             </router-link>
             <!-- ↑ 詳しいページ作る？リンクに -->
           </div>
@@ -103,9 +103,7 @@ a{
 a:hover{
   color: blueviolet;
 }
-.Home:hover{
-  color: #000;
-}
+
 .nonboder {
     text-decoration:none; 
 }

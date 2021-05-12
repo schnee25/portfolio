@@ -80,6 +80,10 @@ img {
   display: block;
 }
 
+.Home:hover{
+  color: #000;
+}
+
 /* レスポンシブ */
 @media screen and (max-width: 959px) {
   /* 959px以下に適用されるCSS（タブレット用） */
