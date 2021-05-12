@@ -11,7 +11,7 @@
       </div>
 
       
-      <div class="title"><a href="/"><p>yukipedia</p></a></div>
+      <div class="title"><a href="/" class="home"><p>yukipedia</p></a></div>
       
       
       <div class="skill">
