@@ -28,7 +28,7 @@
             <div class="excomponent">
               <h2 class="subtitle">URL</h2>
               <div class="separation"><p>:&ensp;</p></div>
-              <div><p class="skilltxt">なし</p></div>
+              <div><p class="skilltxt">https://yukipedia-portfolio.herokuapp.com/</p></div>
             </div>
 
             <div class="excomponent">
