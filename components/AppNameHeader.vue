@@ -83,9 +83,11 @@ img {
 .home:hover{
   color: #000;
 }
-a{
+
+.home{
   text-decoration:none; 
 }
+
 
 /* レスポンシブ */
 @media screen and (max-width: 959px) {
