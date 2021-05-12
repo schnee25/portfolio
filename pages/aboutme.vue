@@ -43,6 +43,10 @@
         </div>
     </div>
 
+    <hr class="border" />
+    <div class="footer">
+      <AppFooter></AppFooter>
+    </div>
 
   </div>
 
@@ -93,5 +97,8 @@ h1 {
   margin: 2% 0% 2% 0%;
 }
 
+.border {
+  display: block;
+}
 
 </style>

@@ -103,7 +103,13 @@
             
         </div>
       </div>
-     </div>
+    </div>
+
+    <hr class="border" />
+    <div class="footer">
+      <AppFooter></AppFooter>
+    </div>
+
 </div>
   
   
@@ -185,6 +191,10 @@ display: inline-block;
 }
 .udedskill{
  display: inline-block;
+}
+
+.border {
+  display: block;
 }
 
 </style>
