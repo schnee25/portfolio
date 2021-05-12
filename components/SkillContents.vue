@@ -32,7 +32,7 @@
             <p class="Vue">&ensp;Vue.js</p>
             </div>
 
-<br>
+              <br>
           
             <div class="exskill">
             <div class="logo">
@@ -54,7 +54,7 @@
             </div><p class="PowerPoint">&ensp;PowerPoint　/ </p>
             </div>
 
-<br>
+              <br>
 
             <div class="exskill">
             <div class="logo">
@@ -103,6 +103,7 @@ export default {}
   height: 21px;
   width: 21px;
 }
+
 
 /* .HTML
 .CSS
