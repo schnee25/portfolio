@@ -2,17 +2,17 @@
       <div class="workscontents">
         <div class="workstitle"><h1>- works -</h1></div>
           <div class="workscomponent">
-
+            
           <div class="worksportpolio">
-            <img src="~/assets/screanshot-portfolio.jpg" class="workss"/>
             <router-link to="/works.portforio">
+            <img src="~/assets/screanshot-portfolio.jpg" class="workss"/>
             <p>ポートフォリオ</p>
             </router-link>
           </div>
           
           <div class="worksdebateq">
-            <img src="~/assets/screanshot-debateq.jpg" class="workss"/>
             <router-link to="/works-debateq">
+            <img src="~/assets/screanshot-debateq.jpg" class="workss"/>
             <p>ディベート甲子園九州大会サイト</p>
             </router-link>
            
