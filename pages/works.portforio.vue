@@ -67,7 +67,7 @@
                     <p class="JavaScript">&ensp;JavaScript</p>
                 </div>
 
-                <div class="exskill">
+                <div class="usedskill">
                   <div class="logo">
                    <img src="~/assets/Vue-Logo.png" class="skilliconimg"/>
                   </div>
@@ -75,7 +75,7 @@
                 </div>
 
 
-                <div class="usedexskill">
+                <div class="usedskill">
                   <div class="logo">
                   <img src="~/assets/Git-Logo.png" class="skilliconimg"/>
                   </div>
@@ -178,7 +178,7 @@ text-align: left;
 width: 800px;
 display: inline-block;
 }
-.exskill {
+.usedskill {
  display: inline-flex;
  
 }
@@ -199,5 +199,7 @@ display: inline-block;
 .border {
   display: block;
 }
+
+
 
 </style>
