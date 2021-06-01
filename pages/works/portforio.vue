@@ -123,7 +123,7 @@
 export default {
 }
 
-import AppNameHeader from '../components/AppNameHeader.vue';
+import AppNameHeader from '../../components/AppNameHeader.vue';
 components: {
   AppNameHeader
 }
