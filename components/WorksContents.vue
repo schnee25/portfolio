@@ -4,14 +4,14 @@
           <div class="workscomponent">
             
           <div class="worksportpolio">
-            <router-link to="/works.portforio" class="nonboder">
+            <router-link to="/works/portforio" class="nonboder">
             <img src="~/assets/screanshot-portfolio.jpg" class="workss"/>
             <p>ポートフォリオ</p>
             </router-link>
           </div>
           
           <div class="worksdebateq">
-            <router-link to="/works-debateq" class="nonboder">
+            <router-link to="/works/debateq" class="nonboder">
             <img src="~/assets/screanshot-debateq.jpg" class="workss"/>
             <p>ディベート甲子園九州大会サイト</p>
             </router-link>

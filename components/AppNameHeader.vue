@@ -30,7 +30,21 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data(){
+    return {
+      isOpen: false,
+    }
+  },
+  methods: {
+    hello(){
+
+    },
+    seeyou(){
+
+    }
+  }
+}
 </script>
 
 <style>
