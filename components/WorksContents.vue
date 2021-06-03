@@ -36,7 +36,7 @@ export default {
 }
 .worksportpolio,.worksdebateq{
   display: inline-block;
-  margin: 1% 3% 1% 3%;
+  margin: 3% 3% 1% 3%;
 }
 
 .workss{
