@@ -78,7 +78,7 @@ export default {
 
 .title {
   display: inline-block;
-  margin: 10px 60px 10px 60px;
+  margin: 15px 60px 10px 60px;
   font-size: 1.3em;
   vertical-align: middle; /* 親のheight/line-heightと合わせて使って子を中央揃えに */
 }
@@ -106,6 +106,7 @@ img {
 
 .home{
   text-decoration:none; 
+  font-size: 25px;
 }
 
 
