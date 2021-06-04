@@ -125,7 +125,8 @@ hr{
 .line::after {
 	position: absolute;
 	top: -0.7em;
-	left: 48%;
+	left: 50%;
+  transform: translate(-50%, 0);
 	display: inline-block;
 	content: '　♡　';
 	background: #f7f8fb;
@@ -164,13 +165,6 @@ hr{
   span {
     display: block;
   }
-  .line::after {
-	position: absolute;
-	top: -0.7em;
-	left: 50%;
-	display: inline-block;
-	content: '　♡　';
-	background: #f7f8fb;
-  }
+
 }
 </style>
