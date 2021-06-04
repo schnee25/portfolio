@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <AppNameHeader></AppNameHeader>
-    <hr class="border" />
 
     <div class="body">
       <div class="main">

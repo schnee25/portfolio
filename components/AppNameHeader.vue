@@ -26,6 +26,7 @@
         <p>contact</p>
       </div>
     </div>
+    <hr class="border" />
   </div>
 </template>
 
@@ -98,6 +99,7 @@ img {
 }
 .border {
   display: block;
+  width: 1200px;
 }
 
 .home:hover{
