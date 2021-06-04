@@ -18,9 +18,8 @@
             </p>
             <p>好きなこと: 食べること🍙</p>
             <router-link to="/aboutme" class="nonboder">
-            <p class="exactly">More information</p>
-            </router-link>
-            <!-- ↑ 詳しいページ作る？リンクに -->
+            <p class="exactly">&#x1f449; More information</p>
+            </router-link> <!-- ↑ 詳しいページ作る？リンクに -->
           </div>
         </div>
 
@@ -84,6 +83,7 @@ components: {
 
 .body {
   font-family: 'Kiwi Maru', serif;
+  min-height: calc(100vh - 150px);
 }
 .aboutme {
   display: flex;
