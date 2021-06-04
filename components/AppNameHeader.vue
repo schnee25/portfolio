@@ -164,5 +164,13 @@ hr{
   span {
     display: block;
   }
+  .line::after {
+	position: absolute;
+	top: -0.7em;
+	left: 50%;
+	display: inline-block;
+	content: '　♡　';
+	background: #f7f8fb;
+  }
 }
 </style>
