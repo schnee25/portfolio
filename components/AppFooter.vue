@@ -20,14 +20,17 @@ export default {}
   flex-direction: column;
 }
 
+hr{
+margin-top: 15px;
+}
+
 .footer {
   font-family: 'Hachi Maru Pop', cursive;
   display: inline-block;
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: 1% 0 1% 0;
-
+  margin: 0 0 1% 0;
   /* height: 100px;
   line-height: 100px; */
   /* height/line-height -> 子要素の上下を中央揃えにするため */
