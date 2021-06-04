@@ -11,11 +11,8 @@
             <div class="aboutmetxts">
             <p>名前: 小山田　雪乃</p>
             <p>　　おやまだ ゆきの</p>
-            <p>
-              2000年12月生まれ。
-              <span>熊本高校卒。</span>
-              <span>立教大学法学部に在籍。</span>
-            </p>
+            <p>2000年12月生まれ。<span>熊本高校卒。</span></p>
+            <p>立教大学法学部に在籍。</p>
             <p>好きなこと: 食べること🍙</p>
             </div>
             <router-link to="/aboutme" class="nonboder">
@@ -95,9 +92,11 @@ components: {
 h1 {
   font-size: 130%;
   text-align: center;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
 }
 .aboutmetxts{
-  padding: 1% 0 1% 0;
+  padding-bottom: 1%;
 }
 
 .exactly{
