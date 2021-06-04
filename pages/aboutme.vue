@@ -3,14 +3,11 @@
   <div class="container">
     <AppNameHeader></AppNameHeader>
 
-    <hr class="border" />
-
-
     <div class="body">
         <div class="main">
-                <div class="title"><h1>Curriculum Vitae</h1></div>
+          <div class="title"><h1>Curriculum Vitae</h1></div>
 
-            <div class="biocontents">
+          <div class="biocontents">
 
                 <div class="excomponent">
                     <h2 class="subtitle">Name</h2>
@@ -38,8 +35,9 @@
                     </div>
                 </div>
             
-            </div>
-        
+          </div>
+          
+
         </div>
     </div>
 
@@ -66,6 +64,7 @@ components: {
 <style>
 .body {
   font-family: 'Kiwi Maru', serif;
+  min-height: calc(100vh - 150px);
 }
 .main{
   text-align:center;
@@ -91,6 +90,9 @@ h1 {
 .extxt{
   text-align: left;
 }
+p{
+  text-align: left;
+}
 
 .excomponent{
   display: flex;
@@ -100,5 +102,7 @@ h1 {
 .border {
   display: block;
 }
+
+
 
 </style>
