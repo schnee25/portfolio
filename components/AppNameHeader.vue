@@ -3,13 +3,13 @@
     <div class="header">
       <div class="profile">
         <router-link to="/aboutme" class="nonboder">
-            <div class="icon"><img src="~/assets/redyPortfolio.jpeg" /></div>
+            <div class="icon"><img src="~/assets/redyPortfolio.png" /></div>
             <p class="iconsub">CV</p>
         </router-link>
         
       </div>
       <div class="works">
-        <div class="icon"><img src="~/assets/goodjobIcon.jpeg" /></div>
+        <div class="icon"><img src="~/assets/goodjobIcon.png" /></div>
         <p>works</p>
       </div>
 
@@ -18,15 +18,15 @@
       
       
       <div class="skill">
-        <div class="icon"><img src="~/assets/penIcon.jpeg" /></div>
+        <div class="icon"><img src="~/assets/penIcon.png" /></div>
         <p>skill</p>
       </div>
       <div class="contact">
-        <div class="icon"><img src="~/assets/comentIcon.jpeg" /></div>
+        <div class="icon"><img src="~/assets/comentIcon.png" /></div>
         <p>contact</p>
       </div>
     </div>
-    <hr class="border" />
+    <hr class="line" />
   </div>
 </template>
 
@@ -76,7 +76,9 @@ export default {
   margin: 3px 40px 3px 40px;
   /* vertical-align: middle; */
 }
-
+p{
+  text-align: center;
+}
 .title {
   display: inline-block;
   margin: 15px 60px 10px 60px;
@@ -97,10 +99,6 @@ img {
   color: #000;
   text-decoration:none; 
 }
-.border {
-  display: block;
-  width: 1200px;
-}
 
 .home:hover{
   color: #000;
@@ -109,6 +107,28 @@ img {
 .home{
   text-decoration:none; 
   font-size: 25px;
+}
+
+hr{
+  width: 100vw;
+}
+
+.line{
+	position: relative;
+	overflow: visible;
+	text-align: center;
+	color: #a3b9e0;
+	border-width: 3px 0 0 0;
+	border-style: double;
+	border-color: #a3b9e0;
+}
+.line::after {
+	position: absolute;
+	top: -0.7em;
+	left: 48%;
+	display: inline-block;
+	content: '　♡　';
+	background: #f7f8fb;
 }
 
 
