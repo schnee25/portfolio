@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <hr class="border" />
+    
     <div class="footer">
       <AppFooter></AppFooter>
     </div>
