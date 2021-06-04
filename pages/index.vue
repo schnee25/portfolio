@@ -7,7 +7,8 @@
         <div class="aboutme">
           <div class="profImg"></div>
           <div class="proftext">
-            <h1 class="aboutmetxt">- about me -</h1>
+            <h1>- about me -</h1>
+            <div class="aboutmetxts">
             <p>名前: 小山田　雪乃</p>
             <p>　　おやまだ ゆきの</p>
             <p>
@@ -16,6 +17,7 @@
               <span>立教大学法学部に在籍。</span>
             </p>
             <p>好きなこと: 食べること🍙</p>
+            </div>
             <router-link to="/aboutme" class="nonboder">
             <p class="exactly">&#x1f449; More information</p>
             </router-link> <!-- ↑ 詳しいページ作る？リンクに -->
@@ -89,12 +91,18 @@ components: {
   justify-content: center;
   margin-top: 2%;
 }
+
 h1 {
   font-size: 130%;
   text-align: center;
 }
+.aboutmetxts{
+  padding: 1% 0 1% 0;
+}
+
 .exactly{
   text-align: center;
+  font-size: 95%;
 }
 a{
   color: #000;
