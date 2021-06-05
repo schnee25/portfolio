@@ -7,7 +7,7 @@
         <div class="main">
        
           <div class="worksportfolio">
-            <img src="~/assets/screanshot-portfolio.jpg" class="workss"/>
+            <div class="worksimg"><img src="~/assets/screanshot-portfolio.jpg" class="workss"/></div>
             <h1>ポートフォリオ</h1>
           </div>
 
@@ -133,13 +133,15 @@ components: {
   font-family: 'Kiwi Maru', serif;
   min-height: calc(100vh - 150px);
 }
-.main{
+/* .main{
   text-align:center;
-}
+} */
 
 .worksportfolio{
   display: inline-block;
-  margin: 1% 3% 1% 3%;
+  margin: 1% 0 1% 0;
+  width: 100vw;
+  text-align: center;
 }
 
 .workss{
@@ -152,6 +154,12 @@ h1 {
   font-weight: normal;
 }
 
+p{
+  text-align: left;
+  }
+h2{
+  margin-left: 2%;
+  }
 .subtitle {
   display: flex;
   font-size: 110%;
