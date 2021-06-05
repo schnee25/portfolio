@@ -58,7 +58,7 @@
                   <p class="CSS">&ensp;CSS</p>
                 </div>
                 
-                <div class="usedxskill">
+                <div class="usedskill">
                   <div class="logo">
                     <img src="~/assets/js-Logo.png" class="skilliconimg"/>
                   </div>
@@ -80,7 +80,7 @@
                   <p class="git">&ensp;git</p>
                 </div>
 
-                 <div class="usedxskill">
+                 <div class="usedskill">
                    <div class="logo">
                     <img src="~/assets/VisualStudioCode-Logo.png" class="skilliconimg"/>
                   </div>
