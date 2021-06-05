@@ -133,9 +133,6 @@ components: {
   font-family: 'Kiwi Maru', serif;
   min-height: calc(100vh - 150px);
 }
-/* .main{
-  text-align:center;
-} */
 
 .worksportfolio{
   display: inline-block;
