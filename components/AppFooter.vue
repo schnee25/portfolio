@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-       
         <div class="foooter">
+            <hr class="border" />
             <h1 class="footerlogo">© 2021 oyamada</h1>
         </div>
       
@@ -39,6 +39,7 @@ margin-top: 15px;
 h1 {
   font-size: 110%;
   font-weight: normal;
+  text-align: center;
 }
 
 

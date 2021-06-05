@@ -106,7 +106,6 @@
       </div>
     </div>
 
-    <hr class="border" />
     <div class="footer">
       <AppFooter></AppFooter>
     </div>
@@ -136,7 +135,7 @@ components: {
 
 .worksportfolio{
   display: inline-block;
-  margin: 1% 0 1% 0;
+  margin: 3% 0 1% 0;
   width: 100vw;
   text-align: center;
 }
