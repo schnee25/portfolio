@@ -5,7 +5,7 @@
 
     <div class="body">
         <div class="main">
-          <div class="title"><h1>Curriculum Vitae</h1></div>
+          <div class="cvtitle"><h1>Curriculum Vitae</h1></div>
 
           <div class="biocontents">
 
@@ -66,8 +66,12 @@ components: {
   font-family: 'Kiwi Maru', serif;
   min-height: calc(100vh - 150px);
 }
-.main{
-  text-align:center;
+.cvtitle{
+  width: 100vw;
+  text-align: center;
+  margin: 15px 0 10px 0;
+  font-size: 1.3em;
+  
 }
 h1 {
   font-size: 130%;
@@ -81,6 +85,7 @@ h1 {
   font-weight: normal;
   justify-content: center;
   width: 180px;
+  text-align: center;
 }
 
 .separation{
