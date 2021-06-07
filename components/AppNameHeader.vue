@@ -9,8 +9,10 @@
         
       </div>
       <div class="works">
+        <a href="#workslink">
         <div class="icon"><img src="~/assets/goodjobIcon.png" /></div>
         <p>works</p>
+        </a>
       </div>
 
       
@@ -18,8 +20,10 @@
       
       
       <div class="skill">
-        <div class="icon"><img src="~/assets/penIcon.png" /></div>
-        <p>skill</p>
+        <a href="#skilllink">
+          <div class="icon"><img src="~/assets/penIcon.png" /></div>
+          <p>skill</p>
+        </a>
       </div>
       <div class="contact">
         <div class="icon"><img src="~/assets/comentIcon.png" /></div>
@@ -100,7 +104,7 @@ img {
   text-decoration:none; 
 }
 
-.home:hover{
+.home:hover,.home:visited{
   color: #000;
 }
 
