@@ -26,6 +26,11 @@ export default {
     ],
   },
 
+  plugins: [
+      '~plugins/vue-scrollto',
+    ],
+  
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
