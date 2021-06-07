@@ -178,7 +178,6 @@ h2{
 }
 .HTML,.CSS,.JavaScript,.Vue,.git,.VScode{
 text-align: left;
-width: 800px;
 display: inline-block;
 }
 .usedskill {
@@ -197,6 +196,11 @@ display: inline-block;
 }
 .udedskill{
  display: inline-block;
+}
+
+.skillitems{
+  display: flex;
+  flex-direction: column;
 }
 
 .border {
