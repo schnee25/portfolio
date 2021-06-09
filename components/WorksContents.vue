@@ -52,6 +52,10 @@ export default {
    max-height: 250px;
    margin-bottom: 2%;
 }
-
+.ssimg{
+  min-height: 200px;
+  min-width: 250px;
+  }
+  
 
 </style>
