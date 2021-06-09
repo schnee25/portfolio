@@ -57,6 +57,7 @@ export default {
   margin: 0 auto;
   display: flex;
   /* justify-content: center; いらんかも*/
+  max-width: 100vw;
   flex-direction: column;
 }
 
