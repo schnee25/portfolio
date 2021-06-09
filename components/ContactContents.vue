@@ -32,7 +32,7 @@
                 </div>
                 <p>facebook&emsp;:&ensp;</p>
             </div>
-            <div class="contactmedium"> <a href="https://github.com/schnee25" class="contactlink" rel=”noopener noreferrer” target="_blank">Yukino Oyamda</a></div>
+            <div class="contactmedium"> <a href="https://www.facebook.com/yuki.O2525" class="contactlink" rel=”noopener noreferrer” target="_blank">Yukino Oyamda</a></div>
        </div>
        
     </div>
