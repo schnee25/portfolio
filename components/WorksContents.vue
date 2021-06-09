@@ -17,7 +17,13 @@
             <img src="~/assets/screanshot-debateq.jpg" class="workss"/>
             <p>ディベート甲子園九州大会サイト</p>
             </router-link>
-           
+          </div>
+
+          <div class="worksportpolio">
+            <!-- <router-link to="/works/portforio" class="nonboder"> -->
+            <div class="ssimg"><img src="~/assets/screanshot-meisi.png" class="workss"/></div>
+            <p>名刺案</p>
+            <!-- </router-link> -->
           </div>
       
         </div>    
@@ -46,5 +52,6 @@ export default {
    max-height: 250px;
    margin-bottom: 2%;
 }
+
 
 </style>
