@@ -9,10 +9,10 @@
         
       </div>
       <div class="works">
-        <a href="#workslink">
+        <router-link to="/worksOverWiew" class="nonboder">
         <div class="icon"><img src="~/assets/goodjobIcon.png" /></div>
-        <p>works</p>
-        </a>
+        <p class="iconsub">works</p>
+        </router-link>
       </div>
 
       
@@ -20,14 +20,17 @@
       
       
       <div class="skill">
-        <a href="#skilllink">
+        <!-- <router-link to="/worksOverWiew" class="nonboder"> -->
           <div class="icon"><img src="~/assets/penIcon.png" /></div>
-          <p>skill</p>
-        </a>
+          <p class="iconsub">skill</p>
+        <!-- </router-link> -->
       </div>
+
       <div class="contact">
+      <!-- <router-link to="/worksOverWiew" class="nonboder"> -->
         <div class="icon"><img src="~/assets/comentIcon.png" /></div>
-        <p>contact</p>
+        <p class="iconsub">contact</p>
+      <!-- </router-link> -->
       </div>
     </div>
     <hr class="line" />
