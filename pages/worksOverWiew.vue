@@ -5,7 +5,7 @@
 
     <div class="body">
         <div class="main">
-          <div class="cvtitle"><h1>Curriculum Vitae</h1></div>
+          <div class="workstitle"><h1>Works</h1></div>
 
             <div class="works"></div>
           
@@ -38,7 +38,7 @@ components: {
 
 </script>
 
-<style>
+<style scoped>
 .body {
   font-family: 'Kiwi Maru', serif;
   min-height: calc(100vh - 150px);
@@ -46,17 +46,16 @@ components: {
 .border {
   display: block;
 }
-
-/* .cvtitle{
+h1 {
   width: 100vw;
   text-align: center;
   margin: 15px 0 10px 0;
   font-size: 1.3em; 
 }
-h1 {
-  font-size: 130%;
-  font-weight: normal;
-}
+
+
+
+/* 
 .subtitle {
   display: flex;
   font-size: 110%;
