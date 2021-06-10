@@ -35,6 +35,12 @@ body{
   margin: 0;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ↑リセットCSS */
 .button--green {
   display: inline-block;
   border-radius: 4px;
