@@ -1,7 +1,7 @@
 <template>
   <div class="workscontents">
     <div class="workstitle">
-      <a name="workslink"><h1>- works -</h1></a>
+      <h1>- works -</h1>
     </div>
     <div class="workscomponent">
       <div class="worksportpolio">

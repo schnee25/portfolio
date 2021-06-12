@@ -1,9 +1,7 @@
 <template>
   <div class="skillcontents">
     <div class="skilltitle">
-      <a name="skilllink">
-        <h1>- skill -</h1>
-      </a>
+      <h1>- skill -</h1>
     </div>
 
     <div class="exskill">

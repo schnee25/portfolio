@@ -9,38 +9,37 @@
           <div class="proftext">
             <h1>- about me -</h1>
             <div class="aboutmetxts">
-            <p>名前: 小山田　雪乃</p>
-            <p>　　おやまだ ゆきの</p>
-            <p>2000年12月生まれ。<span>熊本高校卒。</span></p>
-            <p>立教大学法学部に在籍。</p>
-            <p>好きなこと: 食べること🍙</p>
+              <p>名前: 小山田　雪乃</p>
+              <p>　　おやまだ ゆきの</p>
+              <p>2000年12月生まれ。<span>熊本高校卒。</span></p>
+              <p>立教大学法学部に在籍。</p>
+              <p>好きなこと: 食べること🍙</p>
             </div>
             <router-link to="/aboutme" class="nonboder">
-            <p class="exactly">&#x1f449; More information</p>
-            </router-link> <!-- ↑ 詳しいページ作る？リンクに -->
+              <p class="exactly">&#x1f449; More information</p>
+            </router-link>
+            <!-- ↑ 詳しいページ作る？リンクに -->
           </div>
         </div>
 
-       <div class="worksbox">
-         <WorksContents></WorksContents>
-       </div>
-       <div class="skillbox"><SkillContents></SkillContents></div>
+        <div class="worksbox">
+          <WorksContents></WorksContents>
+        </div>
+        <div class="skillbox"><SkillContents></SkillContents></div>
 
-       <div class="contactcontents"><ContactContents></ContactContents></div>
-     </div>
+        <div class="contactcontents"><ContactContents></ContactContents></div>
+      </div>
     </div>
     <div class="footer">
       <AppFooter></AppFooter>
     </div>
   </div>
-  
 </template>
 
 <script>
-export default {
-}
+export default {}
 
-import AppNameHeader from '../components/AppNameHeader.vue';
+import AppNameHeader from '../components/AppNameHeader.vue'
 components: {
   AppNameHeader
 }
@@ -50,7 +49,7 @@ components: {
   WorksContents
 }
 
-import SkillContents from '../components/SkillContents';
+import SkillContents from '../components/SkillContents'
 components: {
   SkillContents
 }
@@ -94,23 +93,23 @@ h1 {
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
 }
-.aboutmetxts{
+.aboutmetxts {
   padding-bottom: 1%;
 }
 
-.exactly{
+.exactly {
   text-align: center;
   font-size: 95%;
 }
-a{
+a {
   color: #000;
 }
-a:hover{
+a:hover {
   color: blueviolet;
 }
 
 .nonboder {
-    text-decoration:none; 
+  text-decoration: none;
 }
 
 /* レスポンシブ */
