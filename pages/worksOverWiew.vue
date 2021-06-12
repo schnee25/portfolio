@@ -1,32 +1,52 @@
 <template>
-
   <div class="container">
-    <AppNameHeader></AppNameHeader>
-
-    <div class="body">
-        <div class="main">
-          <div class="workstitle"><h1>Works</h1></div>
-
-            <div class="works"></div>
-          
-
-        </div>
+    <div class="header">
+      <AppNameHeader></AppNameHeader>
     </div>
 
-    
+    <div class="body">
+      <div class="main">
+        <div class="workstitle"><h1>Works</h1></div>
+        <div class="works">
+          <div class="programing">
+            <div class="web">
+              <div class="worksportpolio">
+                <router-link to="/works/portforio" class="nonboder">
+                  <img src="~/assets/screanshot-portfolio.jpg" class="workss" />
+                  <p>ポートフォリオ</p>
+                </router-link>
+              </div>
+
+              <div class="worksdebateq">
+                <router-link to="/works/debateq" class="nonboder">
+                  <img src="~/assets/screanshot-debateq.jpg" class="workss" />
+                  <p>ディベート甲子園九州大会サイト</p>
+                </router-link>
+              </div>
+            </div>
+          </div>
+          <div class="imageEdit">
+            <div class="worksportpolio">
+              <router-link to="/works/meisi" class="nonboder">
+                <div class="ssimg"><img src="~/assets/screanshot-meisi.png" class="workss" /></div>
+                <p>名刺案</p>
+              </router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="footer">
       <AppFooter></AppFooter>
     </div>
-
   </div>
-
 </template>
 
 <script>
-export default {
-}
+export default {}
 
-import AppNameHeader from '../components/AppNameHeader.vue';
+import AppNameHeader from '../components/AppNameHeader.vue'
 components: {
   AppNameHeader
 }
@@ -35,7 +55,6 @@ import AppFooter from '../components/AppFooter'
 components: {
   AppFooter
 }
-
 </script>
 
 <style scoped>
@@ -50,10 +69,29 @@ h1 {
   width: 100vw;
   text-align: center;
   margin: 15px 0 10px 0;
-  font-size: 1.3em; 
+  font-size: 1.3em;
+}
+.workscontents {
+  padding-top: 3%;
+  margin: 0 auto;
+  margin-top: 2%;
+  text-align: center;
+}
+.worksportpolio,
+.worksdebateq {
+  display: inline-block;
+  margin: 3% 3% 1% 3%;
 }
 
-
+.workss {
+  max-width: 250px;
+  max-height: 250px;
+  margin-bottom: 2%;
+}
+.ssimg {
+  min-height: 200px;
+  min-width: 250px;
+}
 
 /* 
 .subtitle {
@@ -78,8 +116,4 @@ p{
   display: flex;
   margin: 2% 0% 2% 0%;
 } */
-
-
-
-
 </style>
