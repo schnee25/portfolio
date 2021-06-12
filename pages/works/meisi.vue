@@ -33,7 +33,7 @@
             <div class="skillitems">
               <div class="usedskill">
                 <div class="logo">
-                  <!-- <img src="~/assets/HTML-Logo.png" class="skilliconimg" /> -->
+                  <img src="~/assets/Adobe_Illustrator_CC_icon.svg" class="skilliconimg" />
                 </div>
                 <p class="skilltxt">&ensp;illustrator</p>
               </div>
