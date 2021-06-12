@@ -1,78 +1,99 @@
 <template>
-  
-        <div class="skillcontents">
-            <div class="skilltitle">
-            <a name="skilllink">
-              <h1>- skill -</h1>
-            </a>
-            </div>
+  <div class="skillcontents">
+    <div class="skilltitle">
+      <a name="skilllink">
+        <h1>- skill -</h1>
+      </a>
+    </div>
 
-            <div class="exskill">
-            <div class="logo">
-              <img src="~/assets/HTML-Logo.png" class="skilliconimg"/>
-            </div>
-              <p class="HTML">&ensp;HTML　/ </p>
-            </div>
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/HTML-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;HTML　/</p>
+    </div>
 
-            <div class="exskill">
-            <div class="logo">
-              <img src="~/assets/CSS-Logo.png"  class="skilliconimg"  />
-            </div>
-              <p class="CSS">&ensp;CSS　/ </p>
-            </div>
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/CSS-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;CSS　/</p>
+    </div>
 
-            <div class="exskill">
-            <div class="logo">
-              <img src="~/assets/js-Logo.png" class="skilliconimg"/>
-            </div>
-              <p class="JavaScript">&ensp;JavaScript　/ </p>
-            </div>
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/js-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;JavaScript　/</p>
+    </div>
 
-            <div class="exskill">
-            <div class="logo">
-                <img src="~/assets/Vue-Logo.png" class="skilliconimg"/>
-            </div>
-            <p class="Vue">&ensp;Vue.js</p>
-            </div>
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/Vue-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;Vue.js　/</p>
+    </div>
 
-              <br>
-          
-            <div class="exskill">
-            <div class="logo">
-              <img src="~/assets/Microsoft-Word-Logo.png" class="skilliconimg"/>
-            </div> 
-             <p class="Word">&ensp;Word　/ </p>
-            </div>
+    <br />
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/Adobe_Illustrator_CC_icon.svg" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;Illustrator　/</p>
+    </div>
 
-           <div class="exskill">
-            <div class="logo">
-              <img src="~/assets/Microsoft-Excel-Logo.png" class="skilliconimg"/>
-            </div>
-            <p class="Exel">&ensp;Excel　/ </p>
-           </div>
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/Adobe_Photoshop_CC_icon.svg" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;Photoshop　/</p>
+    </div>
 
-            <div class="exskill">
-            <div class="logo">
-                <img src="~/assets/Microsoft-Powerpoint-Logo.png" class="skilliconimg"/>
-            </div><p class="PowerPoint">&ensp;PowerPoint　/ </p>
-            </div>
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/Adobe_Photoshop_Lightroom_CC_logo.svg" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;Lightroom　/</p>
+    </div>
 
-              <br>
+    <br />
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/Microsoft-Word-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;Word　/</p>
+    </div>
 
-            <div class="exskill">
-            <div class="logo">
-                <img src="~/assets/Git-Logo.png" class="skilliconimg"/>
-            </div><p class="git">&ensp;git　/ </p>
-            </div>
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/Microsoft-Excel-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;Excel　/</p>
+    </div>
 
-            <div class="exskill">
-            <div class="logo">
-                <img src="~/assets/VisualStudioCode-Logo.png" class="skilliconimg"/>
-            </div><p class="VScode">&ensp;Visual Studio Code　/ </p>
-            </div>
-        
-        </div>
-   
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/Microsoft-Powerpoint-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;PowerPoint　/</p>
+    </div>
+
+    <br />
+
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/Git-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;git　/</p>
+    </div>
+
+    <div class="exskill">
+      <div class="logo">
+        <img src="~/assets/VisualStudioCode-Logo.png" class="skilliconimg" />
+      </div>
+      <p class="skilltxt">&ensp;Visual Studio Code　</p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -81,21 +102,20 @@ export default {}
 
 <style>
 .skillcontents {
-    padding-top: 3%;
-    margin: 0 auto;
-    margin-top: 2%;
-    text-align: center;
+  padding-top: 3%;
+  margin: 0 auto;
+  margin-top: 2%;
+  text-align: center;
 }
-.skilltitle{
-    text-align: center;
-    margin-bottom: 2%;
+.skilltitle {
+  text-align: center;
+  margin-bottom: 2%;
 }
-.skillbox{
-    text-align: center;
+.skillbox {
+  text-align: center;
 }
 .exskill {
- display: inline-flex;
- 
+  display: inline-flex;
 }
 
 .skilliconimg {
@@ -107,7 +127,6 @@ export default {}
   width: 21px;
 }
 
-
 /* .HTML
 .CSS
 .JavaScript
@@ -117,6 +136,4 @@ export default {}
 .PowerPoint
 .git
 .VScode */
-
-
 </style>
