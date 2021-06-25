@@ -18,12 +18,19 @@
         </router-link>
       </div>
 
-      <div class="worksportpolio">
-        <router-link to="/works/meisi" class="nonboder">
-          <div class="ssimg"><img src="~/assets/screanshot-meisi.png" class="workss" /></div>
-          <p>名刺案</p>
+      <div class="empathyBot">
+        <router-link to="/works/empathyBot" class="nonboder">
+          <img src="~/assets/empathyBotss.png" class="workss" />
+          <p>共感Bot</p>
         </router-link>
       </div>
+    </div>
+
+    <div>
+      <router-link to="/worksOverWiew" class="nonboder">
+        <p class="exactly">&#x1f449; More information</p>
+      </router-link>
+      <!-- ↑ 詳しいページ作る？リンクに -->
     </div>
   </div>
 </template>
@@ -40,7 +47,8 @@ export default {}
   text-align: center;
 }
 .worksportpolio,
-.worksdebateq {
+.worksdebateq,
+.empathyBot {
   display: inline-block;
   margin: 3% 3% 1% 3%;
 }
@@ -53,5 +61,8 @@ export default {}
 .ssimg {
   min-height: 200px;
   min-width: 250px;
+}
+.exactly {
+  margin-top: 10px;
 }
 </style>
