@@ -35,7 +35,7 @@
             <h2 class="subtitle">作成期間</h2>
             <div class="separation"><p>:&ensp;</p></div>
             <div>
-              <p class="skilltxt">役2週間</p>
+              <p class="skilltxt">約2週間</p>
             </div>
           </div>
 

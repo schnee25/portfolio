@@ -31,7 +31,7 @@
             <div class="separation"><p>:&ensp;</p></div>
             <div>
               <p class="skilltxt">
-                役1週間(未完成)
+                約2週間(未完成)
                 <!-- 5/9 〜 until now -->
               </p>
             </div>
