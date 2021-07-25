@@ -32,12 +32,12 @@
             </div>
           </div>
           <div class="imageEdit">
-            <!-- <div class="worksportpolio">
+            <div class="worksportpolio">
               <router-link to="/works/meisi" class="nonboder">
                 <div class="ssimg"><img src="~/assets/screanshot-meisi.png" class="workss" /></div>
                 <p>名刺案</p>
               </router-link>
-            </div> -->
+            </div>
             <div class="photo">
               <router-link to="/works/" class="nonboder">
                 <div class="ssimg"><img src="~/assets/plum.jpg" class="workss" /></div>
