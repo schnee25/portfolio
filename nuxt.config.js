@@ -1,4 +1,9 @@
 export default {
+  /*
+   ** Global CSS
+   */
+  css: [{ src: '~/assets/sass/app.scss', lang: 'scss' }],
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'portfolio',
@@ -14,25 +19,20 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap',
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap',
       },
       // フォントの追加
     ],
   },
 
-  plugins: [
-      '~plugins/vue-scrollto',
-    ],
-  
+  plugins: ['~plugins/vue-scrollto'],
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  // // Global CSS: https://go.nuxtjs.dev/config-css
+  // css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
