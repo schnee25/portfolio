@@ -49,7 +49,7 @@
           </div>
 
           <div class="excomponent">
-            <h2 class="subtitle">作成の際に意識した点</h2>
+            <h2 class="subtitle">ひとこと</h2>
             <div class="separation"><p>:&ensp;</p></div>
             <div class="extxt">
               <p>初めてLineBotを作ったので難しかったです。</p>

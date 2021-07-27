@@ -38,12 +38,12 @@
                 <p>名刺案</p>
               </router-link>
             </div> -->
-            <div class="photo">
+            <!-- <div class="photo">
               <router-link to="/works/" class="nonboder">
                 <div class="ssimg"><img src="~/assets/plum.jpg" class="workss" /></div>
                 <p>趣味で撮った写真</p>
               </router-link>
-            </div>
+            </div> -->
           </div>
           <div>
             <div class="photo"></div>
