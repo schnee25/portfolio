@@ -28,7 +28,11 @@
           <div class="excomponent">
             <h2 class="subtitle">URL</h2>
             <div class="separation"><p>:&ensp;</p></div>
-            <div><p class="skilltxt">https://portalnadeq.herokuapp.com/</p></div>
+            <div>
+              <p class="skilltxt">https://portalnadeq.herokuapp.com/</p>
+              <p class="skilltxt">https://nade9portal-for-pc.herokuapp.com/</p>
+              <p>途中で仕様変更があり2個作成</p>
+            </div>
           </div>
 
           <div class="excomponent">
